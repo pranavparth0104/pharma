@@ -9,7 +9,7 @@ const app = express();
 
 //db connect 
 // console.log(process.env.MONGODB_URI );
-mongoose.connect('mongodb+srv://pranav:pranav@meradb.usmt3.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongo_uri', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
